@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+        }
+        body{
+            background-color: #1c2132;  
+        }
+        div{
+            
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            text-align: center;
+            color: white;
+            
+            
+            
+        }
+        div span{
+            font-size: 17vw;
+            font-weight: 800;
+            text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.9);
+        }
+        div span:not(:first-child){
+            margin-left: -0.23em;
+        }
+        .try-div{
+            position:0;
+            top:2%;
+            left:20%;
+
+        }
+        .try-link{
+            /*text-decoration: none;*/
+            color:white;
+            font-size: 20px;
+        }
+        .contact-link{
+            /*text-decoration: none;*/
+            color:white;
+            font-size: 20px;
+        }
+        .explanation{
+            background-color: rgba(1, 5, 43, 0.979);
+            color:rgb(226, 154, 19);
+            font-size: 18px;
+            padding: 15px;
+            font-weight: 500;
+            top:90%;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div >
+        <span>E </span>
+        <span> - </span>
+        <span>O</span>
+        <span>R</span>
+        <span>D</span>
+        <span>E</span>
+        <span>R</span>
+        <span>S</span>
+    </div>
+    <div  class="try-div">
+        <a class="try-link" href="menufood.php">Try</a>
+        <a class="contact-link" href="contact.php">Contact</a>
+    </div>
+
+    <div class="explanation">
+            E - orders is a web software designed to take orders inside hotels, bars, or restraunts and render into the staff working at the place.
+    </div>
+</body>
+</html>
